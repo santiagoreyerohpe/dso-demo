@@ -34,11 +34,8 @@ spec:
         - cat
       tty: true
     - name: kaniko
-      image: gcr.io/kaniko-project/executor:v1.6.0-debug
-      imagePullPolicy: Always
-      env:
-        - name: container
-          value: docker
+      image: gcr.io/kaniko-project/executor:debug
+      imagePullPolicy: Always    
       command:
         - sleep
       args:
@@ -57,9 +54,9 @@ spec:
       hostPath:
         path: /tmp/trivycache/
     - name: jenkins-docker-cfg
-      secret: 
+      secret:
         secretName: regcred
         items:
           - key: .dockerconfigjson
-            path: config.json        
+            path: config.json         
       
