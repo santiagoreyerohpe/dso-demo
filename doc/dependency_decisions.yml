@@ -12,6 +12,12 @@
     :versions: []
     :when: 2020-05-31 15:26:45.261798000 Z
 - - :permit
+  - New BSD
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2020-05-31 15:26:48.756587000 Z    
+- - :permit
   - BSD
   - :who: 
     :why: 
@@ -40,7 +46,7 @@
   - :who: 
     :why: 
     :versions:
-    - 1.2.3
+    - 1.4.14
     :when: 2020-05-31 15:28:30.302764000 Z
 - - :approve
   - logback-classic
@@ -54,7 +60,7 @@
   - :who: 
     :why: 
     :versions:
-    - 2.3.3
+    - 4.0.2
     :when: 2020-05-31 15:29:19.300525000 Z
 - - :approve
   - jakarta.el
@@ -68,5 +74,5 @@
   - :who: 
     :why: 
     :versions:
-    - 1.3.5
+    - 2.1.1
     :when: 2020-05-31 15:29:53.045616000 Z
